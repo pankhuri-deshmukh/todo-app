@@ -1,0 +1,23 @@
+
+.listContainer {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .listItem {
+    border-radius: 8px;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  
+  .todoListContainer {
+    margin-top: 20px;
+  }
+  
+  .noTodosMessage {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    font-size: 16px;
+  }

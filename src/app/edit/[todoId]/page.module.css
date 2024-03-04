@@ -1,0 +1,23 @@
+.errorContainer {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .errorMessage {
+    font-size: 18px;
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .backButton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .backButton:hover {
+    background-color: #2c3e50;
+  }

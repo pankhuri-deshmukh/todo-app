@@ -1,0 +1,92 @@
+/* TodoItem.module.css */
+
+.todoItemContainer {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  display: flex;
+}
+
+.colOne{
+  Width: 85%;
+}
+
+.todoItemContainer:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.todoItemTitle {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #333;
+  padding: 5px 0px;
+}
+
+.todoItemDescription {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #666;
+}
+
+.todoItemDetails {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #777;
+}
+
+.todoItemActions {
+  display: flex;
+  align-items: center;
+}
+
+.completeCheckbox {
+  margin-right: 12px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.editButton,
+.deleteButton {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 2px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editButton,
+.deleteButton {
+  background-color: #2ecc71;
+}
+
+.deleteButton {
+  background-color: #e74c3c;
+}
+
+
+.editButton:hover,
+.deleteButton:hover {
+  opacity: 0.9;
+}
+
+.showHistoryButton {
+  color: #3498db;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.hideHistoryButton {
+  color: #e74c3c;
+}
